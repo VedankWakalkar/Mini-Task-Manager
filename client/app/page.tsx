@@ -18,6 +18,7 @@ export default function HomePage() {
   const [taskById, setTaskById] = useState<Task | null>(null);
   const [updateId, setUpdateId] = useState("");
   const [deleteId, setDeleteId] = useState("");
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
   const BASE_URL = "https://mini-task-manager-zgqc.onrender.com/api/v1/tasks";
 
