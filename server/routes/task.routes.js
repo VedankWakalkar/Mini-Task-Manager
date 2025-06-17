@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { deleteTask, getAllTask, getTaskById, postTask, updateTask } from "../controller/task.controller.js";
 const taskRouter=Router();
 
 taskRouter.get("/tasks",getAllTask);
